@@ -3,6 +3,58 @@
     src: url("../fonts/Butler_Bold.otf");
 }
 
+#lang {
+  position: fixed;
+  top: 1.20rem;
+  left: 1rem;
+  display: flex;
+  z-index: 9999;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8em;
+  letter-spacing: 0.5px;
+}
+
+#lang a, #lang a:visited, #lang a:hover {
+  color: #FF4A60;
+  text-decoration: none;
+}
+
+.switch {
+  border-radius: 0.3rem;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.switch::before {
+  display: inline-block;
+    content: "";
+    position: relative;
+    top: -3px;
+    border-top: 2px solid #FF4A60;
+    width: 1rem;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: .3s ease;
+}
+
+.switch:hover {
+  cursor: pointer;
+  color: #FF4A60;
+}
+
+.switch:hover::before {
+  display: inline-block;
+    content: "";
+    position: relative;
+    top: -3px;
+    border-top: 2px solid #FF4A60;
+    width: 1rem;
+    margin: 0 5px;
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
 ::selection {
     color: white; 
     background: #FF4A60;
