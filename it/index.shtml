@@ -843,15 +843,16 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
-        <p class="cit2"><mark>Adaptation</mark> refers to adjustments in ecological, social, or economic systems in response to climatic stimuli. <br>It refers to changes in processes to moderate damages or to benefit from opportunities associated with climate change.</p>
+        <p class="cit2">Il termine <mark>adattamento</mark> indica l'insieme delle misure di regolazione ecologiche, economiche o sociali adottate in risposta alle evidenze del cambiamento climatico. <br>Fa riferimento alle modifiche di processi per moderare danni o sfruttare opportunità associate al 
+        cambiamento climatico.</p>
         <h2 class="sottotitolo fonte">United Nation Framework Convention on Climate Change (UNFCCC)</h2>
       </div>
     </div>
   </div>
   <div class="container">
     <div class="row"><div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
-      <h2 class="graphtitle">Adaptation programs founded during and after COPs</h2>
-      <p class="dueColonne testo white">The growing interest around adaptation allowed the birth of international programs during and after COPs with the aim of helping specific areas. From 2002, five programs have been established and here is shown the increasing amount of funds that they have received from the international community.</p></div>
+      <h2 class="graphtitle">Programmi di adattamento climatico finanziati durante e dopo i COP</h2>
+      <p class="dueColonne testo white">Il crescente interesse per l'adattamento climatico ha portato, durante e dopo i COP, alla nascita di programmi di collaborazione internazionale a supporto di aree speifiche. Dal 2002, sono stati fondati cinque programmi. Nella visualizzazione sottostante sono mostrate le quantità di fondi che hanno ricevuto dalla comunità internazionale.</p></div>
     </div>
     <div id="adaptation-timeline">
       <img src="../images/180211_areagraph-fondi.svg" class="img-responsive">
@@ -865,7 +866,7 @@
     <h1 class="titolo2">Azioni</h1>
     <h2 class="sottotitolo">L'avvicinarsi del punto di non ritorno</h2>
     <p class="testo dueColonne">
-      La consapevolezza di un ecosistema che raggiungerà uno stato presto irreversibile ha spinto la comunità internazionale a intraprendere azioni concrete con l'allocazione di fondi dedicati all'adattamento al cambiamento climatico e alla sua <i data-container="body" data-toggle="popover" data-placement="top" data-content="Mitigazione si riferisce all'atto di contenere ciò che causa il cambiamento climatico. È associato prevalentemente al Protocollo di Kyoto, che ha come obiettivo la riduzione delle emissioni di CO2.">mitigazione</i>. Il focus è sui fondi e sui programmi <i data-container="body" data-toggle="popover" data-placement="top" data-content="Le risorse sono distribuite su una larga scala geografica. Mentre la distribuzione uno a uno tra Paesi può variare, i donatori multilaterali hanno come obiettivo per una copertura geografica più vasta delle controparti bilaterali.">multilateri</i>.</p>
+      La consapevolezza di un ecosistema che raggiungerà uno stato presto irreversibile ha spinto la comunità internazionale a intraprendere azioni concrete con l'allocazione di fondi dedicati all'adattamento al cambiamento climatico e alla sua <i data-container="body" data-toggle="popover" data-placement="top" data-content="Mitigazione si riferisce all'atto di contenere ciò che causa il cambiamento climatico. È associato prevalentemente al Protocollo di Kyoto, che ha come obiettivo la riduzione delle emissioni di CO2.">mitigazione</i>. Il focus è sui fondi e sui programmi <i data-container="body" data-toggle="popover" data-placement="top" data-content="Le risorse sono distribuite su una larga scala geografica. Mentre la distribuzione uno a uno tra Paesi può variare, i donatori multilaterali hanno come obiettivo per una copertura geografica più vasta delle controparti bilaterali.">multilaterali</i>.</p>
 
 
       <h2 class="graphtitle">Fondi di adattamento e mitigazione dal 2002 al 2016</h2></div>
