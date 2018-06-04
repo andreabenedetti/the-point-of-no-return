@@ -824,10 +824,6 @@ footer a, a:hover, a:visited {
     text-decoration-skip: ink;
 }
 
-footer .logo {
-  text-align: center;
-}
-
 footer h2{
   font-family: "Poppins", serif;
   text-transform: uppercase;
@@ -845,8 +841,7 @@ footer p{
 }
 
 footer img{
-  width: auto;
-  height: 80px;
+  width: 7rem;
   position: relative;
   top: 10px;
   margin: 1em;

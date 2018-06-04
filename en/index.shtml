@@ -18195,9 +18195,6 @@
 <footer class="scuro">
  <div class="container white">
    <div class="row">
-     <div class="col-lg-3 col-sm-3 col-md-3 col-xs-4 logo" >
-       <a href="http://www.densitydesign.org/" target="_blank"><img src="../images/logo_density_white.png" width="80"></a><br><a href="http://www.polimi.it/" target="_blank"><img src="../images/logo-poli.png" width="80"></a>
-     </div>
      <div class="col-lg-3 col-sm-3 col-md-3 col-xs-6 credits" >
        <h2>Project by</h2><p><a href="https://www.behance.net/ValeriaAufiero" target="_blank">Valeria Aufiero</a><br><a href="http://andrea-benedetti.it/" target="_blank">Andrea Benedetti</a><br><a href="https://www.behance.net/AlessiaBissolotti" target="_blank">Alessia Bissolotti</a><br><a href="https://www.behance.net/SimoneCostagliola" target="_blank">Simone Costagliola</a><br><a href="https://www.linkedin.com/in/beatrice-gobbo-928609a9/" target="_blank">Beatrice Gobbo</a><br></p>
      </div>
@@ -18206,6 +18203,9 @@
      </div>
      <div class="col-lg-3 col-sm-3 col-md-3 col-xs-8 credits" >
        <h2>Assistants</h2><p>Angeles Briones<br>Azzurra Pini<br>Tommaso Elli<br>Michele Invernizzi<br></p>
+     </div>
+     <div class="col-lg-3 col-sm-3 col-md-3 col-xs-4 logo" >
+       <a href="http://www.densitydesign.org/" target="_blank"><img src="../images/logo_density_white.png"></a><br><a href="http://www.polimi.it/" target="_blank"><img src="../images/logo-poli.png"></a>
      </div>
    </div>
  </footer>
