@@ -112,11 +112,7 @@
       <div id="co2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
         <div class="panel-body container-fluid">
           <h2 class="graphtitle">CO<sub>2</sub> emissions from 1958 to 2017 (PPM)</h2>
-          <!--        <img src="images/co2-emissions-compressed.svg"><br><br>-->
-          <!-- D3 EXPERIMENT -->
           <svg id="co2-graph" width="990" height="500"></svg>
-          
-          <!-- -->
           <p class="datasource dswhite container">Source: <a href="https://figshare.com/s/de130cdba163e06f8111" target="_blank">NASA Vital signs</a></p>
         </div>
       </div>
@@ -125,7 +121,6 @@
       <div id="temperature" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
         <div class="panel-body container-fluid">
           <h2 class="graphtitle">Annual mean temperature variation from 1880 to 2017 (°C)</h2>
-          <!--        <img src="images/temperature-compressed.svg"><br><br>-->
           <svg id="temp-graph" width="990" height="500"></svg>
           
           <p class="datasource dswhite container">Source: <a href="https://figshare.com/s/de130cdba163e06f8111" target="_blank">NASA Vital signs</a></p>
@@ -139,7 +134,6 @@
           <div class="nasa-legend"><p class="antartica">Antarctica</p><p class="greenland">Greenland</p></div>
           <svg id="ice-graph" width="990" height="500"></svg>
           
-          <!--        <img src="images/iced-mass-compressed.svg"><br><br>-->
           <p class="datasource dswhite container">Source: <a href="https://figshare.com/s/de130cdba163e06f8111" target="_blank">NASA Vital signs</a></p>
         </div>
       </div>
@@ -1013,7 +1007,7 @@
             First, each donating country <em>pledges</em> a sum of money, that gets <em>deposited</em> in a specific fund. Second, money is <em>approved</em> from the funds, and only then it is <em>disbursed</em> to the receiving countries. <hr> In the following section, it will be analyzed the distribution of <i>deposited and approved</i> funds between countries.</span>
           </div>
           <div class="col-lg-7 col-sm-7 col-md-7 col-xs-12">
-            <img src="images/imbuto.svg" style="padding: 15px">
+            <img src="../images/imbuto.svg" style="padding: 15px">
             <p class="datasource dswhite">Source: <a href="https://figshare.com/s/eb6132db870f68ac43c8" target="_blank">Climate Fund Update</a></p>
           </div>
         </div>
@@ -1026,7 +1020,7 @@
             <h2 class="graphtitle">Top ten donors and top twenty recipients</h2>
             <p class="dueColonne testo">Adaptation funds and their exchange cover almost all countries in the world, however only <em>thirty countries contribute to 86%</em> of all money. These ten countries deposited this amount of money from 2002 to 2015.<br>
               After being deposited, the money then needs to be approved. When approved, money is <em>already allocated by each fund</em> between the countries who need them.</p>
-              <img src="images/legenda-flussi.svg" width="100%" alt="legenda flussi" style="margin-bottom: 2em">
+              <img src="../images/legenda-flussi.svg" width="100%" alt="legenda flussi" style="margin-bottom: 2em">
               <?xml version="1.0" encoding="utf-8"?>
               <!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
               <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="958px"
@@ -1564,7 +1558,7 @@
           <h2 class="graphtitle">The funds and their target area</h2>
           <p class="dueColonne testo">The money that each country receives targets five different key action areas about climate change adaptation. International agreements set the destination areas of funds to each country. <br><i data-container="body" data-toggle="popover" data-placement="top" data-content="Sometimes the most apt solutions work across different sectors. The goal of multisector programs is to find synergies that will enable projects to target the vulnerabilities that cross traditional boundaries with holistic solutions that do the same. ">Multisector programs</i> operate on multiple destination areas simultaneously in those countries whose condition can be improved on different fields.</p>
           <div id="legenda-tortine">
-            <img src="images/tortine-legenda.svg">
+            <img src="../images/tortine-legenda.svg">
           </div>
           <div id="piecharts">
             <div class="bottoni"><div id="b-all-sector" class="btn">All</div><div id="b-agricolture" class="btn">Agricolture</div><div id="b-civil" class="btn">Civil Society</div><div id="b-water" class="btn">Water</div><div id="b-multisector" class="btn">Multisector</div><div id="b-human" class="btn">Humanitarian Aid</div></div>
@@ -17935,7 +17929,7 @@
 <div class="container">
   <h2 class="graphtitle">Who really needs help?</h2>
   <p class="dueColonne testo">With the vulnerability and readiness index matrix, the countries in the most critical situation emerged. Here, they are visualized with <em>the amount of money</em> that they actually receive from international adaptation funds. The <em>top twenty recipients</em> and the <em>top twenty vulnerable</em> are highlighted in the map.</p>
-  <img src="images/legenda-rombi.svg" width="50%" style="margin-left: -2.5em">
+  <img src="../images/legenda-rombi.svg" width="50%" style="margin-left: -2.5em">
 </div>
 <div id="heatmap" class="container-fluid">
   <div class="heatmap-bottoni"><div id="all" class="btn btn-left">All countries</div><div id="most-vuln" class="btn btn-right">Most vulnerable</div><div id="20-rec" class="btn btn-right">Top recipients</div></div>
@@ -18202,7 +18196,7 @@
  <div class="container white">
    <div class="row">
      <div class="col-lg-3 col-sm-3 col-md-3 col-xs-4 logo" >
-       <a href="http://www.densitydesign.org/" target="_blank"><img src="images/logo_density_white.png" width="80"></a><br><a href="http://www.polimi.it/" target="_blank"><img src="images/logo-poli.png" width="80"></a>
+       <a href="http://www.densitydesign.org/" target="_blank"><img src="../images/logo_density_white.png" width="80"></a><br><a href="http://www.polimi.it/" target="_blank"><img src="../images/logo-poli.png" width="80"></a>
      </div>
      <div class="col-lg-3 col-sm-3 col-md-3 col-xs-6 credits" >
        <h2>Project by</h2><p><a href="https://www.behance.net/ValeriaAufiero" target="_blank">Valeria Aufiero</a><br><a href="http://andrea-benedetti.it/" target="_blank">Andrea Benedetti</a><br><a href="https://www.behance.net/AlessiaBissolotti" target="_blank">Alessia Bissolotti</a><br><a href="https://www.behance.net/SimoneCostagliola" target="_blank">Simone Costagliola</a><br><a href="https://www.linkedin.com/in/beatrice-gobbo-928609a9/" target="_blank">Beatrice Gobbo</a><br></p>
