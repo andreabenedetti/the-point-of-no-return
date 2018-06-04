@@ -1074,6 +1074,11 @@ body.loading .modal {
   #title {
     padding-top: 25%;
   }
+  
+  footer img {
+    padding-right:1rem;
+  }
+
 }
 
 /*@media only screen (max-width: 768px){
