@@ -280,8 +280,10 @@ body svg {
 }
 
 #title {
-  height: 100%;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
@@ -407,11 +409,6 @@ h2.graphtitle {
   color: white;
 }
 
-#title {
-  /*background: transparent;*/
-  padding-top: 23%;
-}
-
 .data-intro {
   margin-top: 1.5em;
   font-size: 2.8em;
@@ -421,9 +418,9 @@ h2.graphtitle {
   font-family: "Butler", serif;
   color: #FF4A60;
   font-size: 4em;
-  line-height: 1.3em;
   text-align: center;
   z-index: 9999;
+  margin: 0;
 }
 
 .po-subtitle {
@@ -433,7 +430,7 @@ h2.graphtitle {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: white;
-  margin-top: -1em;
+  margin-top: 0;
   text-align: center;
   z-index: 9999;
 }
