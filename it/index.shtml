@@ -851,8 +851,8 @@
   </div>
   <div class="container">
     <div class="row"><div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
-      <h2 class="graphtitle">Programmi di adattamento climatico finanziati durante e dopo i COPs</h2>
-      <p class="dueColonne testo white">Il crescente interesse per l'adattamento climatico ha portato, durante e dopo i COPs, alla nascita di programmi di collaborazione internazionale a supporto di aree speifiche. Dal 2002, sono stati fondati cinque programmi. Nella visualizzazione sottostante sono mostrate le quantità di fondi che hanno ricevuto dalla comunità internazionale.</p></div>
+      <h2 class="graphtitle">Programmi di adattamento climatico finanziati durante e dopo i COP</h2>
+      <p class="dueColonne testo white">Il crescente interesse per l'adattamento climatico ha portato, durante e dopo i COP, alla nascita di programmi di collaborazione internazionale a supporto di aree speifiche. Dal 2002, sono stati fondati cinque programmi. Nella visualizzazione sottostante sono mostrate le quantità di fondi che hanno ricevuto dalla comunità internazionale.</p></div>
     </div>
     <div id="adaptation-timeline">
       <img src="../images/180211_areagraph-fondi.svg" class="img-responsive">
