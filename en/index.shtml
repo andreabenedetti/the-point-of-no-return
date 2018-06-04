@@ -2,11 +2,11 @@
 <html class="no-js" lang="en" prefix="og: //ogp.me/ns#">
 <head>
 	<!-- ### Completare le variabili SEO ### -->
-	<!--#set var="title_page" value="inserire titolo infografica" -->
-	<!--#set var="description_page" value="inserire descrizione infografica" -->
-	<!--#set var="keywords_page" value="inserire keywords infografica" -->
-	<!--#set var="image_page" value="inserire percorso immagine principale infografica" -->
-	<!--#set var="dir_page" value="_master_infografica" -->
+	<!--#set var="title_page" value="The Point of No Return - How the world is adapting to climate change" -->
+	<!--#set var="description_page" value="Climate change is approaching an irreversible state. The international community is acting to let countries all around the world adapt to the imminent climate challenge." -->
+	<!--#set var="keywords_page" value="climate change, foreign politics, adaptation, international cooperation, cop, unfccc, ipcc, united nations, climate, environment, data visualization, visual data " -->
+	<!--#set var="image_page" value="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/images/og-image.jpg" -->
+	<!--#set var="dir_page" value="the-point-of-no-return"-->
 	<!-- ### fine Completare le variabili SEO ### -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
