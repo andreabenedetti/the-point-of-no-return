@@ -1,22 +1,22 @@
 $(document).ready(function() {
-          resizeDiv();
-        });
+  resizeDiv();
+});
 
-        window.onresize = function(event) {
-          resizeDiv();
-        }
+window.onresize = function(event) {
+  resizeDiv();
+}
 
-        function resizeDiv() {
-           vpw=$(window).width();
-           vph=$(window).height();
-            $("#title").css({"height":vph + "px"});
-        }
+function resizeDiv() {
+ vpw=$(window).width();
+ vph=$(window).height();
+ $("#title").css({"height":vph + "px"});
+}
 
 /* affix the navbar after scroll below header $('#intro').height()*/
 $('#nav').affix({
-      offset: {
-        top: $(window).height()-$('#nav').height()
-      }
+  offset: {
+    top: $(window).height()-$('#nav').height()
+  }
 }); 
 
 /* highlight the top nav as scrolling occurs */
@@ -35,33 +35,28 @@ $('#nav .navbar-nav li>a').click(function(){
 });
 
 $(document).ready(function(){
-    $('a[href^="#"]').on('click',function (e) {
-        e.preventDefault();
+  $('a[href^="#"]').on('click',function (e) {
+    e.preventDefault();
 
-        var target = this.hash;
-        var $target = $(target);
+    var target = this.hash;
+    var $target = $(target);
 
-        $('html, body').stop().animate({
-            'scrollTop': $target.offset().top
-        }, 900, 'swing', function () {
-            window.location.hash = target;
-        });
+    $('html, body').stop().animate({
+      'scrollTop': $target.offset().top
+    }, 900, 'swing', function () {
+      window.location.hash = target;
     });
+  });
 });
 
 $(document).ready(function() {
- $('.scrollTo').click( function() { // Au clic sur un élément
- var page = $(this).attr('href'); // Page cible
- var speed = 100; // Durée de l'animation (en ms)
- $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+ $('.scrollTo').click( function() { 
+ var page = $(this).attr('href'); 
+ var speed = 100; 
+ $('html, body').animate( { scrollTop: $(page).offset().top }, speed );
  return false;
- });
- });
-
-/* particlesJS.load(@dom-id, @path-json, @callback (optional));
-particlesJS.load('particles-js', 'https://api.myjson.com/bins/2smr4', function() {
-  console.log('callback - particles.js config loaded');
-});*/
+});
+});
 
 $(function () {
   $('[data-toggle="popover"]').popover()
@@ -69,5 +64,5 @@ $(function () {
 
 /* LOADER */
 $(window).load(function() {
-      $(".loader").fadeOut("slow");
+  $(".loader").fadeOut("slow");
 });
