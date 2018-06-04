@@ -2,18 +2,19 @@
 <html class="no-js" lang="it" prefix="og: //ogp.me/ns#">
 <head>
 	<!-- ### Completare le variabili SEO ### -->
-	<!--#set var="title_page" value="Il punto di non ritorno" -->
-	<!--#set var="description_page" value="inserire descrizione infografica" -->
-	<!--#set var="keywords_page" value="inserire keywords infografica" -->
-	<!--#set var="image_page" value="inserire percorso immagine principale infografica" -->
-	<!--#set var="dir_page" value="_master_infografica" -->
+	<!--#set var="title_page" value="Il punto di non ritorno - Come il mondo si sta adattando al cambiamento climatico" -->
+	<!--#set var="description_page" value="Il cambiamento climatico si sta avvicinando a uno stato irreversibile. La comunità internazionale sta agendo per permettere a tutti i Paesi del mondo di affrontare la sfida climatica." -->
+	<!--#set var="keywords_page" value="cambiamento climatico, politica estera, adattamento, cooperazione internazionale, COP, UNFCCC, IPCC, Nazioni Unite, clima, visualizzazione dati, Visual Data, ambiente" -->
+	<!--#set var="image_page" value="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/images/og-image.jpg" -->
+	<!--#set var="dir_page" value="the-point-of-no-return" -->
 	<!-- ### fine Completare le variabili SEO ### -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
 	<!-- *** head di sistema *** -->
 	<!--#include virtual="/includes2013/Master-Template/la-lettura/visualdata/head.shtml"-->
 	<!-- *** fine head di sistema *** -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
 	
 	<!-- ### custom CSS, JS ### -->
 	<link  rel="stylesheet" href="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/<!--#echo var="dir_page" -->/libs/infografica.css?v=<!--#flastmod virtual="/la-lettura/infografiche-visual-data/immagini-animazioni/${dir_page}/libs/infografica.css" -->">

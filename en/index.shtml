@@ -8,12 +8,11 @@
 	<!--#set var="image_page" value="inserire percorso immagine principale infografica" -->
 	<!--#set var="dir_page" value="_master_infografica" -->
 	<!-- ### fine Completare le variabili SEO ### -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- *** head di sistema *** -->
 	<!--#include virtual="/includes2013/Master-Template/la-lettura/visualdata/head.shtml"-->
 	<!-- *** fine head di sistema *** -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<!-- ### custom CSS, JS ### -->
 	<link  rel="stylesheet" href="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/<!--#echo var="dir_page" -->/libs/infografica.css?v=<!--#flastmod virtual="/la-lettura/infografiche-visual-data/immagini-animazioni/${dir_page}/libs/infografica.css" -->">
