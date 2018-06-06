@@ -340,7 +340,7 @@ body svg {
     text-transform: uppercase;
   }
 
-  h2.graphtitle {
+  .graphtitle {
     font-family: "Butler";
     font-size: 1.8em;
     letter-spacing: 0.01em;
@@ -809,49 +809,9 @@ body svg {
   100% { opacity: 1; }
 }
 
-footer{
-  font-family: "Crimson text", serif;
-  padding: 4% 0 4% 0;
-  line-height: 1.7em;
-}
-
-footer a, a:hover, a:visited {
-  color: #d9d9d9;
-  text-decoration: underline;
-  text-decoration-skip: ink;
-}
-
-footer h2{
-  font-family: "Poppins", serif;
-  text-transform: uppercase;
-  font-size: 1em;
-  letter-spacing: 3px;
-  color: #FF4A60;
-}
-
-footer p{
-  font-family: "Crimson text", serif;
-  font-size: 1.1em;
-  line-height: 1.9em;
-  letter-spacing: 0.5px;
-  color: rgba(255,255,255,.8);
-}
-
-footer img{
-  width: 7rem;
-  position: relative;
-  top: 10px;
-  margin: 1em;
-}
-
-footer .credits {
-  padding-left: 40px;
-}
-
-
 .citc img{
-  top:120px;
-  position:relative;
+  top: 120px;
+  position: relative;
 }
 
 /* LOADER */
@@ -1063,6 +1023,72 @@ body.loading .modal {
   font-weight: bold;
   font-size: 1.1em;
 }
+
+footer {
+  font-family: "Crimson text", serif;
+  padding: 4% 0 4% 0;
+  line-height: 1.7em;
+}
+
+footer a, a:visited {
+  color: #FF4A60;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+footer a:hover {
+  background: #FF4A60;
+  text-decoration: none;
+  color: white;
+}
+
+footer h2{
+  font-family: "Poppins", serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 3px;
+  color: #FF4A60;
+}
+
+footer h4 {
+  font-size: 2rem !important;
+  color: white;
+}
+
+footer p{
+  font-family: "Crimson text", serif;
+  font-size: 1.1em;
+  line-height: 1.9em;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5rem;
+  color: rgba(255,255,255,.8);
+}
+
+
+footer .kiib {
+  font-size: 1.2em;
+  margin-bottom: 2rem;
+}
+
+footer .kiib span {
+  background: #581a9b;
+  padding: 0.5rem 1rem;
+  border-radius: 1px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.3rem;
+  border: 1px solid #946dbf;
+}
+
+footer img{
+  width: 7rem;
+  position: relative;
+  top: 10px;
+  margin: 1em;
+}
+
 
 @media only screen and (min-device-width: 426px) and (max-device-width: 768px) {
   .container {
