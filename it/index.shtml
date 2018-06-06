@@ -3,7 +3,7 @@
 <head>
 	<!-- ### Completare le variabili SEO ### -->
 	<!--#set var="title_page" value="Il punto di non ritorno - Come il mondo si sta adattando al cambiamento climatico" -->
-	<!--#set var="description_page" value="Il cambiamento climatico si sta avvicinando a uno stato irreversibile. La comunità internazionale sta agendo per permettere a tutti i Paesi del mondo di affrontare la sfida climatica." -->
+	<!--#set var="description_page" value="Il cambiamento climatico si sta avvicinando a uno stato irreversibile. La comunit&#224; internazionale sta agendo per permettere a tutti i Paesi del mondo di affrontare la sfida climatica." -->
 	<!--#set var="keywords_page" value="cambiamento climatico, politica estera, adattamento, cooperazione internazionale, COP, UNFCCC, IPCC, Nazioni Unite, clima, visualizzazione dati, Visual Data, ambiente" -->
 	<!--#set var="image_page" value="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/images/og-image.jpg" -->
 	<!--#set var="dir_page" value="the-point-of-no-return" -->
@@ -11,18 +11,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-	<!-- *** head di sistema *** -->
-	<!--#include virtual="/includes2013/Master-Template/la-lettura/visualdata/head.shtml"-->
-	<!-- *** fine head di sistema *** -->
+  <!-- *** head di sistema *** -->
+  <!--#include virtual="/includes2013/Master-Template/la-lettura/visualdata/head.shtml"-->
+  <!-- *** fine head di sistema *** -->
 
-	
-	<!-- ### custom CSS, JS ### -->
-	<link  rel="stylesheet" href="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/<!--#echo var="dir_page" -->/libs/infografica.css?v=<!--#flastmod virtual="/la-lettura/infografiche-visual-data/immagini-animazioni/${dir_page}/libs/infografica.css" -->">
-	<script src="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/<!--#echo var="dir_page" -->/libs/infografica.js?v=<!--#flastmod virtual="/la-lettura/infografiche-visual-data/immagini-animazioni/${dir_page}/libs/infografica.js" -->"></script>
-	<!-- ### fine custom CSS, JS ### -->
 
-	<!-- ### inserire qui sotto i Custom images [css,js] ### -->
-	<link rel="icon" href="../images/favicon-01.png" type="img/png" />
+  <!-- ### custom CSS, JS ### -->
+  <link  rel="stylesheet" href="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/<!--#echo var="dir_page" -->/libs/infografica.css?v=<!--#flastmod virtual="/la-lettura/infografiche-visual-data/immagini-animazioni/${dir_page}/libs/infografica.css" -->">
+  <script src="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/<!--#echo var="dir_page" -->/libs/infografica.js?v=<!--#flastmod virtual="/la-lettura/infografiche-visual-data/immagini-animazioni/${dir_page}/libs/infografica.js" -->"></script>
+  <!-- ### fine custom CSS, JS ### -->
+
+  <!-- ### inserire qui sotto i Custom images [css,js] ### -->
+  <link rel="icon" href="../images/favicon-01.png" type="img/png" />
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700|Poppins" rel="stylesheet">
   <link href="../libs/css/bootstrap.css" rel="stylesheet">
   <link rel="stylesheet" href="../font.css">
@@ -74,7 +74,7 @@
       <div class="row">
         <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
           <div class="cit bar">
-            <mark>L'influenza umana</mark> sul sistema climatico è visibile e in crescita. Se lasciata fuori controllo, il cambiamento climatico aumenterà la possibilità di <mark>cambiamenti irreversibili e pervasivi</mark> nei confronti di persone ed ecosistemi.</div>
+            <mark>L'influenza umana</mark> sul sistema climatico &#232; visibile e in crescita. Se lasciata fuori controllo, il cambiamento climatico aumenter&#224; la possibilit&#224; di <mark>cambiamenti irreversibili e pervasivi</mark> nei confronti di persone ed ecosistemi.</div>
             <h2 class="sottotitolo fonte">Thomas Stocker, Co-Presidente dell'IPCC Working Group I</h2>
           </div>
         </div>
@@ -167,7 +167,7 @@
       <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12" >
         <h1 class="titolo2">Incontri</h1>
         <h2 class="sottotitolo">Da dove siamo partiti, dove siamo arrivati</h2>
-        <p class="testo dueColonne">Il rapido mutamento del clima terrestre ha reso necessaria una risposta immediata da parte di tutti quelli che sono i principali attori socio-economici del pianeta. <br>La <i data-container="body" data-toggle="popover" data-placement="top" data-content="Emerge costantemente un clima di collaborazione tra Paesi negli incontri internazionali. I più importanti sono organizzati dall'UNFCCC.">cooperazione internazionale</i> è divenuta uno strumento riconosciuto contro l’approssimarsi di uno stato irreversibile.<br><i data-container="body" data-toggle="popover" data-placement="top" data-content="La Conferenza delle Parti è il corpo supremo di decisione della Convenzione. Un obiettivo chiave del COP è di controllare le comunicazioni internazionali e tenere sotto controllo le emissioni delle Parti.">La Conferenza delle Parti (COP)</i> è uno dei più importanti momenti ogni anno, in cui Paesi di tutto il mondo si incontrano per discutere come affrontare il cambiamento climatico, ogni volta in una capitale diversa.</p>
+        <p class="testo dueColonne">Il rapido mutamento del clima terrestre ha reso necessaria una risposta immediata da parte di tutti quelli che sono i principali attori socio-economici del pianeta. <br>La <i data-container="body" data-toggle="popover" data-placement="top" data-content="Emerge costantemente un clima di collaborazione tra Paesi negli incontri internazionali. I pi&#249; importanti sono organizzati dall'UNFCCC.">cooperazione internazionale</i> &#232; divenuta uno strumento riconosciuto contro l’approssimarsi di uno stato irreversibile.<br><i data-container="body" data-toggle="popover" data-placement="top" data-content="La Conferenza delle Parti &#232; il corpo supremo di decisione della Convenzione. Un obiettivo chiave del COP &#232; di controllare le comunicazioni internazionali e tenere sotto controllo le emissioni delle Parti.">La Conferenza delle Parti (COP)</i> &#232; uno dei pi&#249; importanti momenti ogni anno, in cui Paesi di tutto il mondo si incontrano per discutere come affrontare il cambiamento climatico, ogni volta in una capitale diversa.</p>
       </div>
     </div>
   </div>
@@ -483,7 +483,7 @@
         <div id="e-1988" class="event">
           <em>1988, novembre</em>
           <h2 class="sottotitolo">Fondazione dell'IPCC</h2><hr>
-          Il Pannello Intergovernativo sul Cambiamento Climatico (IPCC) è un comitato scientifico sovranazionale sotto la guida delle Nazioni Unite.
+          Il Pannello Intergovernativo sul Cambiamento Climatico (IPCC) &#232; un comitato scientifico sovranazionale sotto la guida delle Nazioni Unite.
         </div>
         <div id="e-1990" class="event">
           <em>1990, novembre</em>
@@ -498,7 +498,7 @@
         <div id="e-1994" class="event">
           <em>1994, marzo</em>
           <h2 class="sottotitolo">Fondazione UNFCCC</h2><hr>
-          L'UNFCCC è un trattato interazionale quasi universale le cui parti discutono annualmente i problemi relativi al cambiamento climatico, con l'obiettivo di siglare accordi <em>multilaterali</em>.
+          L'UNFCCC &#232; un trattato interazionale quasi universale le cui parti discutono annualmente i problemi relativi al cambiamento climatico, con l'obiettivo di siglare accordi <em>multilaterali</em>.
         </div>
         <div id="e-1995" class="event">
           <em>1995, marzo - aprile</em>
@@ -515,7 +515,7 @@
           <em>1997, dicembre</em>
           <h2 class="sottotitolo">Cop 3</h2><hr>
           Kyoto, Giappone<br>
-          Dopo intense contrattazioni, le Parti adottano il Protocollo di Kyoto che ha come obiettivo la riduzione delle emissioni dei gas serra (GHG), dando per appurato che il cambiamento climatico è una realtà e che le emissioni di CO2 di fonte umana ne sono la causa.
+          Dopo intense contrattazioni, le Parti adottano il Protocollo di Kyoto che ha come obiettivo la riduzione delle emissioni dei gas serra (GHG), dando per appurato che il cambiamento climatico &#232; una realt&#224; e che le emissioni di CO2 di fonte umana ne sono la causa.
         </div>
         <div id="e-1998" class="event">
           <em>1998, novembre</em>
@@ -531,7 +531,7 @@
           <em>2000, novembre</em>
           <h2 class="sottotitolo">Cop 6</h2><hr>
           L'Aia, Olanda<br>
-          Le Parti discutono delle difficoltà di sottostare agli obiettivi di riduzione di emissioni, e di come i Paesi in via di sviluppo possano ricevere aiuti economici per affrontare gli effetti del cambiamento climatico. Il COP viene però sospeso in mancanza di accordi.
+          Le Parti discutono delle difficolt&#224; di sottostare agli obiettivi di riduzione di emissioni, e di come i Paesi in via di sviluppo possano ricevere aiuti economici per affrontare gli effetti del cambiamento climatico. Il COP viene per&#242; sospeso in mancanza di accordi.
         </div>
         <div id="e-2001" class="event">
           <em>2001</em>
@@ -560,13 +560,13 @@
           <em>2005, novembre - dicembre</em>
           <h2 class="sottotitolo">Cop 11 - CMP 1</h2><hr>
           Montreal, Canada <br>
-          Uno delle più grandi conferenze sovranazionali sul cambiamento climatico. In questa occasione, entra <em>in vigore il Protocollo di Kyoto</em>.
+          Uno delle pi&#249; grandi conferenze sovranazionali sul cambiamento climatico. In questa occasione, entra <em>in vigore il Protocollo di Kyoto</em>.
         </div>
         <div id="e-2006" class="event">
           <em>2006, novembre</em>
           <h2 class="sottotitolo">Cop 12 - CMP 2</h2><hr>
           Nairobi, Kenia <br>
-          Le Parti adottano un piano di lavoro per supportare l'adattamento al cambiamento climatico dei Paesi in via di sviluppo, accordandosi sulle procedure e le modalità del <em>Fondo di Adattamento</em>.
+          Le Parti adottano un piano di lavoro per supportare l'adattamento al cambiamento climatico dei Paesi in via di sviluppo, accordandosi sulle procedure e le modalit&#224; del <em>Fondo di Adattamento</em>.
         </div>
         <div id="e-2007" class="event">
           <em>2007, novembre</em>
@@ -577,7 +577,7 @@
           <em>2008, dicembre</em>
           <h2 class="sottotitolo">Cop 14 - CMP 4</h2><hr>
           Poznan, Polonia<br>
-          Le Parti raggiungono un accordo sui principi di finanziamento di un fondo per aiutare le Nazioni più povere.
+          Le Parti raggiungono un accordo sui principi di finanziamento di un fondo per aiutare le Nazioni pi&#249; povere.
         </div>
         <div id="e-2009" class="event">
           <em>2009, dicembre</em>
@@ -589,7 +589,7 @@
           <em>2010, dicembre</em>
           <h2 class="sottotitolo">Cop 16 - CMP 6</h2><hr>
           Cancun, Messico <br>
-          Le Parti riconoscono che il cambiamento climatico rappresenta un'urgente e potenziamente irreversibile minaccia alle società umane e al pianeta, e in quanto tale richiede di essere riconosciuta e affrontata da tutti.
+          Le Parti riconoscono che il cambiamento climatico rappresenta un'urgente e potenziamente irreversibile minaccia alle societ&#224; umane e al pianeta, e in quanto tale richiede di essere riconosciuta e affrontata da tutti.
         </div>
         <div id="e-2011" class="event">
           <em>2011, novembre - dicembre</em>
@@ -612,14 +612,14 @@
         <div id="e-2014" class="event">
           <em>2014, dicembre</em>
           <h2 class="sottotitolo">Cop 20 - CMP 10</h2><hr>
-          Lima, Perù<br>
+          Lima, Per&#249;<br>
           Le Parti giurano di siglare un trattato internazionale durante la convenzione dell'UNFCCC a Parigi.     
         </div>
         <div id="e-2015" class="event">
           <em>2015, novembre - dicembre</em>
           <h2 class="sottotitolo">Cop 21 - CMP 11</h2><hr>
           Parigi, Francia<br>
-          Le negoziazioni risultano nell'adozione del Trattato di Parigi, che entrerà ufficialmente in vigore il 4 novembre 2016.
+          Le negoziazioni risultano nell'adozione del Trattato di Parigi, che entrer&#224; ufficialmente in vigore il 4 novembre 2016.
         </div>
         <div id="e-2016" class="event"> 
           <em>2016, novembre</em>
@@ -640,9 +640,9 @@
         <h1 class="titolo2">Parole</h1>
         <h2 class="graphtitle white">Una conversazione in evoluzione: temi trattati ai COP</h2>
         <p class="testo dueColonne">Al termine di ogni COP viene redatto un report in cui sono contenuti i temi affrontati, i programmi discussi e gli impegni presi da ogni Parte partecipante. 
-          Essi sono lo specchio dell’incontro avvenuto e da essi è possibile identificare l’orientamento che i paesi decidono far proprio.<br>
+          Essi sono lo specchio dell’incontro avvenuto e da essi &#232; possibile identificare l’orientamento che i paesi decidono far proprio.<br>
           L’analisi dei report ha evidenziato <em>una serie di temi ricorrenti</em>, contando ogni termine e calcolato quanto esso sia stato ripetuto all’interno dei report.
-          Questo processo quantitativo, visualizzato in basso, riesce a delineare come <em>la discussione si sia evoluta nel tempo</em>, acquistando più o meno rilevanza, nello sviluppo del dibattito climatico.</p>
+          Questo processo quantitativo, visualizzato in basso, riesce a delineare come <em>la discussione si sia evoluta nel tempo</em>, acquistando pi&#249; o meno rilevanza, nello sviluppo del dibattito climatico.</p>
         </div>
       </div>
     </div>
@@ -844,7 +844,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
-        <p class="cit2">Il termine <mark>adattamento</mark> indica l'insieme delle misure di regolazione ecologiche, economiche o sociali adottate in risposta alle evidenze del cambiamento climatico. <br>Fa riferimento alle modifiche di processi per moderare danni o sfruttare opportunità associate al 
+        <p class="cit2">Il termine <mark>adattamento</mark> indica l'insieme delle misure di regolazione ecologiche, economiche o sociali adottate in risposta alle evidenze del cambiamento climatico. <br>Fa riferimento alle modifiche di processi per moderare danni o sfruttare opportunit&#224; associate al 
         cambiamento climatico.</p>
         <h2 class="sottotitolo fonte">United Nation Framework Convention on Climate Change (UNFCCC)</h2>
       </div>
@@ -853,7 +853,7 @@
   <div class="container">
     <div class="row"><div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
       <h2 class="graphtitle">Programmi di adattamento climatico finanziati durante e dopo i COP</h2>
-      <p class="dueColonne testo white">Il crescente interesse per l'adattamento climatico ha portato, durante e dopo i COP, alla nascita di programmi di collaborazione internazionale a supporto di aree speifiche. Dal 2002, sono stati fondati cinque programmi. Nella visualizzazione sottostante sono mostrate le quantità di fondi che hanno ricevuto dalla comunità internazionale.</p></div>
+      <p class="dueColonne testo white">Il crescente interesse per l'adattamento climatico ha portato, durante e dopo i COP, alla nascita di programmi di collaborazione internazionale a supporto di aree speifiche. Dal 2002, sono stati fondati cinque programmi. Nella visualizzazione sottostante sono mostrate le quantit&#224; di fondi che hanno ricevuto dalla comunit&#224; internazionale.</p></div>
     </div>
     <div id="adaptation-timeline">
       <img src="../images/180211_areagraph-fondi.svg" class="img-responsive">
@@ -867,7 +867,7 @@
     <h1 class="titolo2">Azioni</h1>
     <h2 class="sottotitolo">L'avvicinarsi del punto di non ritorno</h2>
     <p class="testo dueColonne">
-      La consapevolezza di un ecosistema che raggiungerà uno stato presto irreversibile ha spinto la comunità internazionale a intraprendere azioni concrete con l'allocazione di fondi dedicati all'adattamento al cambiamento climatico e alla sua <i data-container="body" data-toggle="popover" data-placement="top" data-content="Mitigazione si riferisce all'atto di contenere ciò che causa il cambiamento climatico. È associato prevalentemente al Protocollo di Kyoto, che ha come obiettivo la riduzione delle emissioni di CO2.">mitigazione</i>. Il focus è sui fondi e sui programmi <i data-container="body" data-toggle="popover" data-placement="top" data-content="Le risorse sono distribuite su una larga scala geografica. Mentre la distribuzione uno a uno tra Paesi può variare, i donatori multilaterali hanno come obiettivo per una copertura geografica più vasta delle controparti bilaterali.">multilaterali</i>.</p>
+      La consapevolezza di un ecosistema che raggiunger&#224; uno stato presto irreversibile ha spinto la comunit&#224; internazionale a intraprendere azioni concrete con l'allocazione di fondi dedicati all'adattamento al cambiamento climatico e alla sua <i data-container="body" data-toggle="popover" data-placement="top" data-content="Mitigazione si riferisce all'atto di contenere ci&#242; che causa il cambiamento climatico. &#200; associata prevalentemente al Protocollo di Kyoto, che ha come obiettivo la riduzione delle emissioni di CO2.">mitigazione</i>. Il focus &#232; sui fondi e sui programmi <i data-container="body" data-toggle="popover" data-placement="top" data-content="Le risorse sono distribuite su una larga scala geografica. Mentre la distribuzione uno a uno tra Paesi pu&#242; variare, i donatori multilaterali hanno come obiettivo per una copertura geografica pi&#249; vasta delle controparti bilaterali.">multilaterali</i>.</p>
 
 
       <h2 class="graphtitle">Fondi di adattamento e mitigazione dal 2002 al 2016</h2></div>
@@ -1018,7 +1018,7 @@
       <div class="row">
         <div class="col-lg-5 col-sm-5 col-md-5 col-xs-12">
           <span class="testo white">
-            I programmi per l'adattamento mettono in relazione <i>i paesi che stanziano fondi e i paesi che li ricevono</i>. Questi fondi, risultato delle trattative internazionali, prima di essere effettivamente ricevuti da chi ne ha bisogno, seguono un percorso diviso in quattro fasi.<br><br> Inizialmente, ogni stato donatore <em>stabilisce</em> una quantità di denaro da <em>depositare</em> in un fondo specifico. Successivamente, il denaro è <em>approvato</em> dai fondi stessi, per poi essere <em>versati</em> ai Paesi riceventi.<hr>Nella sezione successiva, verrà analizzata la distribuzione dei fondi <i>depositati e approvati</i> dai programmi per l'adattamento.</span>
+            I programmi per l'adattamento mettono in relazione <i>i paesi che stanziano fondi e i paesi che li ricevono</i>. Questi fondi, risultato delle trattative internazionali, prima di essere effettivamente ricevuti da chi ne ha bisogno, seguono un percorso diviso in quattro fasi.<br><br> Inizialmente, ogni stato donatore <em>stabilisce</em> una quantit&#224; di denaro da <em>depositare</em> in un fondo specifico. Successivamente, il denaro &#232; <em>approvato</em> dai fondi stessi, per poi essere <em>versati</em> ai Paesi riceventi.<hr>Nella sezione successiva, verr&#224; analizzata la distribuzione dei fondi <i>depositati e approvati</i> dai programmi per l'adattamento.</span>
           </div>
           <div class="col-lg-7 col-sm-7 col-md-7 col-xs-12">
             <img src="../images/imbuto-ita.svg" style="padding: 15px">
@@ -1033,8 +1033,8 @@
           <div class="col-xl-12 col-sm-12 col-md-12 col-xs-12">
             <h2 class="graphtitle">I dieci maggiori donatori e i venti maggiori riceventi</h2>
             <p class="dueColonne testo">
-              I fondi per l'adattamento e gli scambi tra essi coprono quasi la totalità dei Paesi del mondo, tuttavia <em>trenta soli Paesi contribuiscono con l'86%</em> del totale.<br>
-              Il denaro, una volta depositato, rimane in attesa di essere approvato. Solo ora, una volta approvato, <em>verrà redistribuito</em> tra i venti Paesi che ricevono più denaro.</p>
+              I fondi per l'adattamento e gli scambi tra essi coprono quasi la totalit&#224; dei Paesi del mondo, tuttavia <em>trenta soli Paesi contribuiscono con l'86%</em> del totale.<br>
+              Il denaro, una volta depositato, rimane in attesa di essere approvato. Solo ora, una volta approvato, <em>verr&#224; redistribuito</em> tra i venti Paesi che ricevono pi&#249; denaro.</p>
               <img src="../images/legenda-flussi-ita.svg" width="100%" alt="legenda flussi" style="margin-bottom: 2em">
               <?xml version="1.0" encoding="utf-8"?>
               <!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
@@ -1572,12 +1572,12 @@
         <div class="col-xl-12 col-sm-12 col-md-12 col-xs-12">
           <h2 class="graphtitle">I fondi e le aree d'azione</h2>
           <p class="dueColonne testo">
-            Il denaro ricevuto da ogni Paese va ad agire su cinque diverse aree di azione per l'adattamento al cambiamento climatico. I fondi per l'adattamento agiscono tramite diversi programmi settoriali che vengono decisi da accordi internazionali.<br> I <i data-container="body" data-toggle="popover" data-placement="top" data-content="A volte, la soluzione più adatta è quella di coprire più settori contemporaneamente. L'obiettivo dei programmi multisettoriali è quello di trovare programmi sinergici che vanno a colpire vulnerabilità che trascendono i tradizionali confini definiti dagli altri programmi.">programmi multisettoriali</i> agiscono su diverse aree simultaneamente in quei paesi la cui situazione può essere migliorata su diversi fronti.</p>
+            Il denaro ricevuto da ogni Paese va ad agire su cinque diverse aree di azione per l'adattamento al cambiamento climatico. I fondi per l'adattamento agiscono tramite diversi programmi settoriali che vengono decisi da accordi internazionali.<br> I <i data-container="body" data-toggle="popover" data-placement="top" data-content="A volte, la soluzione pi&#249; adatta &#232; quella di coprire pi&#249; settori contemporaneamente. L'obiettivo dei programmi multisettoriali &#232; quello di trovare programmi sinergici che vanno a colpire vulnerabilit&#224; che trascendono i tradizionali confini definiti dagli altri programmi.">programmi multisettoriali</i> agiscono su diverse aree simultaneamente in quei paesi la cui situazione pu&#242; essere migliorata su diversi fronti.</p>
             <div id="legenda-tortine">
               <img src="../images/tortine-legenda-ita.svg">
             </div>
             <div id="piecharts">
-              <div class="bottoni"><div id="b-all-sector" class="btn">Tutti</div><div id="b-agricolture" class="btn">Agricoltura</div><div id="b-civil" class="btn">Società civile</div><div id="b-water" class="btn">Acqua</div><div id="b-multisector" class="btn">Multisettore</div><div id="b-human" class="btn">Aiuti umanitari</div></div>
+              <div class="bottoni"><div id="b-all-sector" class="btn">Tutti</div><div id="b-agricolture" class="btn">Agricoltura</div><div id="b-civil" class="btn">Societ&#224; civile</div><div id="b-water" class="btn">Acqua</div><div id="b-multisector" class="btn">Multisettore</div><div id="b-human" class="btn">Aiuti umanitari</div></div>
               <?xml version="1.0" encoding="utf-8"?>
               <!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
               <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -2320,15 +2320,15 @@
   <section id="vr-def" class="scuro white">
     <div class="container">
       <h2 class="graphtitle">Chi ha bisogno di aiuto, chi sta aiutando</h2>
-      <h2 class="sottotitolo">Capire la necessità di aiuto e supporto</h2>
-      <p class="testo dueColonne">La relazione tra indice di vulnerabilità e indice di preparazione è indicatore della capacità di adattamento di un paese.<br>
-        Questo rapporto permette di creare una matrice con lo scopo di identificare le situazioni più critiche su cui agire tramite accordi internazionali.
+      <h2 class="sottotitolo">Capire la necessit&#224; di aiuto e supporto</h2>
+      <p class="testo dueColonne">La relazione tra indice di vulnerabilit&#224; e indice di preparazione &#232; indicatore della capacit&#224; di adattamento di un paese.<br>
+        Questo rapporto permette di creare una matrice con lo scopo di identificare le situazioni pi&#249; critiche su cui agire tramite accordi internazionali.
       </p>
       <div class="row definition">
         <div class="col-xl-6 col-sm-6 col-md-6 col-xs-6 v-r left">
-          <h2 class="graphtitle">Indice di vulnerabilità</h2>
+          <h2 class="graphtitle">Indice di vulnerabilit&#224;</h2>
           <span class="testo">
-            Propensione o predisposizione della società umana ad essere <em>colpiti negativamente</em> dai pericoli climatici.
+            Propensione o predisposizione della societ&#224; umana ad essere <em>colpiti negativamente</em> dai pericoli climatici.
           </span>
           <div class="components">Salute <em>+</em> Habitat <em>+</em> Ecosistema <em>+</em> Acqua <em>+</em> Infrastruttura <em>+</em> Cibo</div>
         </div>
@@ -2347,7 +2347,7 @@
   <section id="vuln-read" class="chiaro">
     <div class="container">
 
-      <h2 class="graphtitle">Il mondo e la sua capacità di adattamento</h2>
+      <h2 class="graphtitle">Il mondo e la sua capacit&#224; di adattamento</h2>
     </div>
     <div class="container-fluid">
       <div id="matrix">
@@ -3526,10 +3526,10 @@
           150.75,532.64 172.05,532.25 172.05,474.27 128.89,474.13 128.89,503.39 107.37,503.43 107.37,518.01 107.37,532.74 85.51,532.64 
           64.85,532.7   "/>
           <text transform="matrix(1 0 0 1 139.817 639.5616)" class="st71 st72">Meno vulnerabili </text>
-          <text transform="matrix(0 -1 1 0 38.6669 529.5508)" class="st71 st72">Più pronti </text>
+          <text transform="matrix(0 -1 1 0 38.6669 529.5508)" class="st71 st72">Pi&#249; pronti </text>
           <text transform="matrix(1 0 0 1 51.91 621.9729)" class="st71 st72">0</text>
           <text transform="matrix(1 0 0 1 51.5767 480.5966)" class="st71 st72">1</text>
-          <text transform="matrix(1 0 0 1 63.6319 456.8777)" class="st73 st74 st75">Matrice preparazione-vulnerabilità</text>
+          <text transform="matrix(1 0 0 1 63.6319 456.8777)" class="st73 st74 st75">Matrice preparazione-vulnerabilit&#224;</text>
           <g>
             <text transform="matrix(1 0 0 1 62.0644 75.3952)" class="st71 st72">Primi 20 riceventi </text>
             <text transform="matrix(1 0 0 1 61.8506 52.8087)" class="st73 st74 st75">Paesi evidenziati</text>
@@ -17950,12 +17950,12 @@
   <div class="container">
     <h2 class="graphtitle">Chi ha veramente bisogno di aiuto?</h2>
     <p class="dueColonne testo">
-      Sulla base della matrice di vulnerabilità e preparazione sono emersi i paesi in una situazione più critica. Qui sono sovrapposti questo indicatore e <em>l’effettiva quantità di denaro</em> ricevuto dai fondi internazionali per l’adattamento.
-      Sono stati messi in evidenza <em>i 20 paesi che ricevono di più</em> dai fondi e <em>i 20 paesi più vulnerabili.</em></p>
+      Sulla base della matrice di vulnerabilit&#224; e preparazione sono emersi i paesi in una situazione pi&#249; critica. Qui sono sovrapposti questo indicatore e <em>l’effettiva quantit&#224; di denaro</em> ricevuto dai fondi internazionali per l’adattamento.
+      Sono stati messi in evidenza <em>i 20 paesi che ricevono di pi&#249;</em> dai fondi e <em>i 20 paesi pi&#249; vulnerabili.</em></p>
       <img src="../images/legenda-rombi.svg" width="50%" style="margin-left: -2.5em">
     </div>
     <div id="heatmap" class="container-fluid">
-      <div class="heatmap-bottoni"><div id="all" class="btn btn-left">Tutti</div><div id="most-vuln" class="btn btn-right">Più vulnerabili</div><div id="20-rec" class="btn btn-right">Primi riceventi</div></div>
+      <div class="heatmap-bottoni"><div id="all" class="btn btn-left">Tutti</div><div id="most-vuln" class="btn btn-right">Pi&#249; vulnerabili</div><div id="20-rec" class="btn btn-right">Primi riceventi</div></div>
       <?xml version="1.0" encoding="utf-8"?>
       <!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
       <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1280px"
@@ -18208,10 +18208,10 @@
 <section id="conclusioni" class="rosa white">
   <div class="container">
     <h2 class="graphtitle">I molti punti di non ritorno</h2>
-    <p class="dueColonne testo">È corretto identificare un’unica soglia oltre la quale non si può più tornare indietro? Il punto di non ritorno del cambiamento climatico è mutevole per ogni paese e influenzato da diversi fattori.
-      Per questo, ognuno di essi richiede un supporto economico e politico sempre diverso e puntualizzato.<br>
-      Gli accordi internazionali per prevenire e combattere le conseguenze del cambiamento climatico permettono ai Paesi più vulnerabili di entrare in relazione con gli altri Paesi del mondo.<br>
-      Nonostante non sia possibile identificare il confine tra reversibilità e irreversibilità, la comunità scientifica è unanime nell’affermare l’importanza dell’influenza dell’uomo sul cambiamento climatico. Dunque, l’incontro tra i Paesi continua. Al COP22 di Marrakech il tema centrale dell’adattamento continua la conversazione iniziata a Parigi e che ha portato alla ratificazione del Paris Agreement.
+    <p class="dueColonne testo">&#200; corretto identificare un’unica soglia oltre la quale non si pu&#242; pi&#249; tornare indietro? Il punto di non ritorno del cambiamento climatico &#232; mutevole per ogni paese e influenzato da diversi fattori.<br><br>
+      Per questo, ognuno di essi richiede un supporto economico e politico sempre diverso e puntualizzato.
+      Gli accordi internazionali per prevenire e combattere le conseguenze del cambiamento climatico permettono ai Paesi pi&#249; vulnerabili di entrare in relazione con gli altri Paesi del mondo.
+      Nonostante non sia possibile identificare il confine tra reversibilit&#224; e irreversibilit&#224;, la comunit&#224; scientifica &#232; unanime nell’affermare l’importanza dell’influenza dell’uomo sul cambiamento climatico. Dunque, l’incontro tra i Paesi continua. Al COP22 di Marrakech il tema centrale dell’adattamento continua la conversazione iniziata a Parigi e che ha portato alla ratificazione del Paris Agreement.
     </p>
   </div>
 </section>
