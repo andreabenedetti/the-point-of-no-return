@@ -1,26 +1,33 @@
 var sea = d3.select("#sea-graph"),
-    margin = {top: 20, right: 20, bottom: 30, left: 50},
-    width = +sea.attr("width") - margin.left - margin.right,
-    height = +sea.attr("height") - margin.top - margin.bottom,
+    margin = {top: 20, right: 20, bottom: 40, left: 50},
+    widthSea =  d3.select("h1.titolo2").node().getBoundingClientRect().width - margin.left - margin.right,
+    heightSea = 700 - margin.top - margin.bottom,
     i = sea.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 var parseTime2 = d3.timeParse("%Y");
 
 var x4 = d3.scaleTime()
-    .rangeRound([0, width]);
+    .rangeRound([0, widthSea]);
 
 var y4 = d3.scaleLinear()
-    .rangeRound([height, 0]);
+    .rangeRound([heightSea, 0]);
 
 var xAxis4 = d3.axisTop(x4)
-        .tickSize(height);
+        .tickSize(heightSea);
 
 var yAxis4 = d3.axisRight(y4)
-    .tickSize(width);
+    .tickSize(widthSea);
 
 var line4 = d3.line()
     .x(function(e) { return x4(e.date); })
     .y(function(e) { return y4(e.close); });
+
+var i = d3.select("#sea-graph")
+    .attr("width", widthSea + margin.left + margin.right)
+    .attr("height", 700)
+  .append("g")
+    .attr("transform",
+          "translate(" + margin.left + "," + margin.top + ")");
 
 d3.tsv("../libs/data/sea-level.tsv", function(e) {
   e.date = parseTime(e.date);
@@ -35,7 +42,7 @@ d3.tsv("../libs/data/sea-level.tsv", function(e) {
   y4.domain(d3.extent(dsea, function(e) { return e.close; }));
 
   i.append("g")
-      .attr("transform", "translate(0," + height + ")")
+      .attr("transform", "translate(0," + heightSea + ")")
       .call(customXAxisSea);
 
   i.append("g")

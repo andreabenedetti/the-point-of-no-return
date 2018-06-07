@@ -1,5 +1,5 @@
 var ice = d3.select("#ice-graph"),
-    margin = {top: 20, right: 20, bottom: 30, left: 50},
+    margin = {top: 20, right: 20, bottom: 40, left: 50},
     width = +ice.attr("width") - margin.left - margin.right,
     height = +ice.attr("height") - margin.top - margin.bottom,
     h = ice.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");

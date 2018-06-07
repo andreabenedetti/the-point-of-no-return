@@ -4,17 +4,17 @@
 //    height = 500 - margin.top - margin.bottom;
 
 var ice = d3.select("#ice-graph"),
-    margin = {top: 20, right: 20, bottom: 30, left: 50},
-    width = d3.select("h1.titolo2").node().getBoundingClientRect().width,
-    height = +ice.attr("height") - margin.top - margin.bottom,
+    margin = {top: 20, right: 20, bottom: 40, left: 50},
+    widthIce = d3.select("h1.titolo2").node().getBoundingClientRect().width - margin.left - margin.right,
+    heightIce = 700 - margin.top - margin.bottom,
     j = ice.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 // parse the date / time
 var parseTime3 = d3.timeParse("%d-%b-%y");
 
 // set the ranges
-var x3 = d3.scaleTime().range([0, width]);
-var y3 = d3.scaleLinear().range([height, 0]);
+var x3 = d3.scaleTime().range([0, widthIce]);
+var y3 = d3.scaleLinear().range([heightIce, 0]);
 
 // define the 1st line
 var valueline = d3.line()
@@ -22,10 +22,10 @@ var valueline = d3.line()
     .y(function(d) { return y3(d.open); });
 
 var xAxisIce = d3.axisTop(x3)
-        .tickSize(height);
+        .tickSize(heightIce);
 
 var yAxisIce = d3.axisRight(y3)
-    .tickSize(width);
+    .tickSize(widthIce);
 
 // define the 2nd line
 var valueline2 = d3.line()
@@ -36,11 +36,9 @@ var valueline2 = d3.line()
 // appends a 'group' element to 'svg'
 // moves the 'group' element to the top left margin
 var ice = d3.select("#ice-graph")
-    .attr("width", width)
+    .attr("width", widthIce + margin.left + margin.right)
     .attr("height", 700)
   .append("g")
-    .attr("width", width * 0.5)
-    .attr("height", 700)
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
 
@@ -92,7 +90,7 @@ d3.tsv("../libs/data/ant-green-ice.tsv", function(error, data) {
 
   // Add the X Axis
   ice.append("g")
-      .attr("transform", "translate(0," + height + ")")
+      .attr("transform", "translate(0," + heightIce + ")")
       .call(customXAxisIce);
 
   // Add the Y Axis

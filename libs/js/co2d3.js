@@ -1,26 +1,33 @@
 var co2 = d3.select("#co2-graph"),
-    margin = {top: 20, right: 20, bottom: 30, left: 50},
-    width = +co2.attr("width") - margin.left - margin.right,
-    height = +co2.attr("height") - margin.top - margin.bottom,
+    margin = {top: 20, right: 20, bottom: 40, left: 50},
+    widthCo2 = d3.select("h1.titolo2").node().getBoundingClientRect().width - margin.left - margin.right,
+    heightCo2 = 700 - margin.top - margin.bottom,
     g = co2.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 var parseTime = d3.timeParse("%d-%b-%Y");
 
 var x = d3.scaleTime()
-    .rangeRound([0, width]);
+    .rangeRound([0, widthCo2]);
 
 var y = d3.scaleLinear()
-    .rangeRound([height, 0]);
+    .rangeRound([heightCo2, 0]);
 
 var xAxisCo2 = d3.axisTop(x)
-        .tickSize(height);
+        .tickSize(heightCo2);
 
 var yAxisCo2 = d3.axisRight(y)
-    .tickSize(width);
+    .tickSize(widthCo2);
 
 var line = d3.line()
     .x(function(d) { return x(d.cdate); })
     .y(function(d) { return y(d.value); });
+
+var g = d3.select("#co2-graph")
+    .attr("width", widthCo2 + margin.left + margin.right)
+    .attr("height", 700)
+  .append("g")
+    .attr("transform",
+          "translate(" + margin.left + "," + margin.top + ")");
 
 d3.tsv("../libs/data/co2.tsv", function(d) {
   d.cdate = parseTime(d.cdate);
@@ -35,7 +42,7 @@ d3.tsv("../libs/data/co2.tsv", function(d) {
   y.domain(d3.extent(dco2, function(d) { return d.value; }));
 
   g.append("g")
-      .attr("transform", "translate(0," + height + ")")
+      .attr("transform", "translate(0," + heightCo2 + ")")
       .call(customXAxisCo2);
 
   g.append("g")
