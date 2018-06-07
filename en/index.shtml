@@ -128,10 +128,10 @@
     </div>
     <div class="panel panel-default">
       <div id="iced-mass" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-        <div class="panel-body container-fluid">
+        <div class="panel-body container">
           <h2 class="graphtitle">Land ice mass variation from 2002 to 2017 (Gigaton)</h2>
           <div class="nasa-legend"><p class="antartica">Antarctica</p><p class="greenland">Greenland</p></div>
-          <svg id="ice-graph" width="990" height="500"></svg>
+          <svg id="ice-graph" height="500"></svg>
           
           <p class="datasource dswhite container">Source: <a href="https://figshare.com/s/de130cdba163e06f8111" target="_blank">NASA Vital signs</a></p>
         </div>
@@ -18230,10 +18230,10 @@
 <script src='../libs/js/jquery.vide.js'></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 <script src="../libs/js/jquery.counterup.min.js"></script>
-<script src="../libs/js/co2d3.js"></script>
-<script src="../libs/js/tempd3.js"></script>
+<!-- <script src="../libs/js/co2d3.js"></script>
+<script src="../libs/js/tempd3.js"></script> -->
 <script src="../libs/js/icecompd3.js"></script>
-<script src="../libs/js/sead3.js"></script>
+<!-- <script src="../libs/js/sead3.js"></script> -->
 <script>
   jQuery(document).ready(function($) {
     $('.ind').counterUp({

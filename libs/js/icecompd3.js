@@ -5,7 +5,7 @@
 
 var ice = d3.select("#ice-graph"),
     margin = {top: 20, right: 20, bottom: 30, left: 50},
-    width = +ice.attr("width") - margin.left - margin.right,
+    width = d3.select("h1.titolo2").node().getBoundingClientRect().width,
     height = +ice.attr("height") - margin.top - margin.bottom,
     j = ice.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -36,15 +36,19 @@ var valueline2 = d3.line()
 // appends a 'group' element to 'svg'
 // moves the 'group' element to the top left margin
 var ice = d3.select("#ice-graph")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
+    .attr("width", width)
+    .attr("height", 700)
   .append("g")
+    .attr("width", width * 0.5)
+    .attr("height", 700)
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
 
 // Get the data
 d3.tsv("../libs/data/ant-green-ice.tsv", function(error, data) {
   if (error) throw error;
+
+  console.log(margin.right);
 
   // format the data
   data.forEach(function(d) {
