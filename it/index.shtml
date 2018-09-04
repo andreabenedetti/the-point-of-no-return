@@ -853,7 +853,15 @@
   <div class="container">
     <div class="row"><div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
       <h2 class="graphtitle">Programmi di adattamento climatico finanziati durante e dopo i COP</h2>
-      <p class="dueColonne testo white">Il crescente interesse per l'adattamento climatico ha portato, durante e dopo i COP, alla nascita di programmi di collaborazione internazionale a supporto di aree speifiche. Dal 2002, sono stati fondati cinque programmi. Nella visualizzazione sottostante sono mostrate le quantit&#224; di fondi che hanno ricevuto dalla comunit&#224; internazionale.</p></div>
+      <p class="dueColonne testo white">Il crescente interesse per l'adattamento climatico ha portato, durante e dopo i COP, alla nascita di programmi di collaborazione internazionale a supporto di aree speifiche. Dal 2002, sono stati fondati cinque programmi. Nella visualizzazione sottostante sono mostrate le quantit&#224; di fondi che hanno ricevuto dalla comunit&#224; internazionale.</p>
+      <hr>
+      <p class="dueColonne testo white">
+        PPCR — Pilot Programme for Climate Resilience<br>
+        LDCF — Least Developed Countries Fund<br>
+        AF — Adaptation Fund<br>
+        SCCF — Special Climate Change Fund<br>
+      ASAP — Adaptation for Smallholder Agricolture Fund</p>
+    </div>
     </div>
     <div id="adaptation-timeline">
       <img src="../images/180211_areagraph-fondi.svg" class="img-responsive">
@@ -18217,33 +18225,29 @@
 </section>
 <footer class="scuro">
  <div class="container white">
-  <div class="row">
-    <div class="col-xs-12">
+  <!-- <div class="row">
+    <div class="col-xs-8">
         <div class="kiib">
-          <a href="https://www.informationisbeautifulawards.com/showcase/2325-the-point-of-no-return-how-the-world-is-adapting-to-climate-change">
+          <a href="https://www.informationisbeautifulawards.com/showcase/2325-the-point-of-no-return-how-the-world-is-adapting-to-climate-change" target="_blank">
             <h4 class="graphtitle">Vincitore ai Kantar Information is Beautiful Awards 2017</h4>
             <p><span>Silver</span> & <span>Studio of the Year</span></p>
           </a>
         </div>
     </div>
-  </div>
+  </div> -->
   <div class="row">
-   <div class="col-sm-3 col-xs-6 credits" >
-     <h2>Progetto di</h2><p><a href="https://www.behance.net/ValeriaAufiero" target="_blank">Valeria Aufiero</a><br><a href="http://andrea-benedetti.it/" target="_blank">Andrea Benedetti</a><br><a href="https://www.behance.net/AlessiaBissolotti" target="_blank">Alessia Bissolotti</a><br><a href="https://www.behance.net/SimoneCostagliola" target="_blank">Simone Costagliola</a><br><a href="https://bea92.github.io/website/" target="_blank">Beatrice Gobbo</a><br></p>
+   <div class="col-xs-12 col-sm-8 credits">
+    <p class="white">Il sito web è stato realizzato all'interno del Laboratorio di Sintesi Finale di <a href="https://www.densitydesign.org" target="_blank">DensityDesign</a>, strutturato all'interno del corso di Laurea Magistrale in Design della Comunicazione del <a href="https://www.polimi.it" target="_blank">Politecnico di Milano</a>. È stato eletto vincitore del secondo premio ai <a href="https://www.informationisbeautifulawards.com/showcase/2325-the-point-of-no-return-how-the-world-is-adapting-to-climate-change" target="_blank">Kantar Information is Beautiful Awards 2017</a> nella categoria <b>Humanitarian & Global</b>, e riconosciuto come parte del premio <b>Best Studio</b>, assegnato al laboratorio.</p>
+     <h2>Progetto di</h2>
+     <p><a href="https://www.behance.net/ValeriaAufiero" target="_blank">Valeria Aufiero</a>, <a href="http://andrea-benedetti.it/" target="_blank">Andrea Benedetti</a>, <a href="https://www.behance.net/AlessiaBissolotti" target="_blank">Alessia Bissolotti</a>, <a href="https://www.behance.net/SimoneCostagliola" target="_blank">Simone Costagliola</a>, <a href="https://bea92.github.io/website/" target="_blank">Beatrice Gobbo</a></p>
+     <h2>Faculty e Assistenti</h2><p>Paolo Ciuccarelli, Marco Fattore, Stefano Mandato, Michele Mauri, Salvatore Zingale, Angeles Briones, Azzurra Pini, Tommaso Elli, Michele Invernizzi</p>
    </div>
-   <div class="col-lg-3 col-sm-3 col-md-3 col-xs-6 credits" >
-     <h2>Faculty</h2><p>Paolo Ciuccarelli<br>Marco Fattore<br>Stefano Mandato<br>Michele Mauri<br>Salvatore Zingale<br></p>
-   </div>
-   <div class="col-lg-3 col-sm-3 col-md-3 col-xs-8 credits" >
-     <h2>Assistenti</h2><p>Angeles Briones<br>Azzurra Pini<br>Tommaso Elli<br>Michele Invernizzi<br></p>
-   </div>
-   <div class="col-lg-3 col-sm-3 col-md-3 col-xs-4 logo" >
-     <a href="http://www.densitydesign.org/" target="_blank"><img src="../images/logo_density_white.png"></a><br><a href="http://www.polimi.it/" target="_blank"><img src="../images/logo-poli.png"></a>
+   <div class="col-xs-4 logo hidden-xs">
+     <a href="http://www.densitydesign.org/" target="_blank"><img src="../images/logo_density_white.png"></a><br>
+     <a href="http://www.polimi.it/" target="_blank"><img src="../images/logo-poli.png"></a>
    </div>
  </div>
 </footer>
-
-<div id="lang"><a href="../en/index.shtml"><div class="switch">ENG</div></a></div>
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>

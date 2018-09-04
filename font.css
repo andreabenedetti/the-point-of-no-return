@@ -139,3 +139,14 @@
          url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-bold-webfont.ttf") format("truetype"), 
          url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-bold-webfont.svgttf") format("svg");
 }
+
+@font-face {
+    font-family: "title-regular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-webfont.eot");
+    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-webfont.eot?#iefix") format("embedded-opentype"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-webfont.woff?v=s201804061620") format("woff"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-webfont.ttf") format("truetype"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-webfont.svgttf") format("svg");
+}

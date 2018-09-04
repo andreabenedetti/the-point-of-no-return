@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Butler";
-  src: url("../fonts/Butler_Bold.otf");
+  font-family: "title-bold";
+  src: url("../fonts/title-bold_Bold.otf");
 }
 
 #lang {
@@ -9,7 +9,7 @@
   left: 1rem;
   display: flex;
   z-index: 9999;
-  font-family: "Poppins", sans-serif;
+  font-family: "main-regular", sans-serif;
   font-size: 0.8em;
   letter-spacing: 0.5px;
 }
@@ -169,7 +169,7 @@ body svg {
 #nav {
   width: 100%;
   font-size: 0.8em;
-  font-family: "Poppins", sans-serif;
+  font-family: "main-regular", sans-serif;
   color: white;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -299,7 +299,7 @@ body svg {
   }
 
   h2.graphtitle-one{
-    font-family: "Butler";
+    font-family: "title-bold";
     font-size: 1.6em;
     letter-spacing: 0.01em;
     margin-top:2em;
@@ -315,7 +315,7 @@ body svg {
   }
 
   .titolo {
-    font-family: "Butler";
+    font-family: "title-bold";
     padding: 100px;
     font-size: 8em;
     color: #333;
@@ -324,7 +324,7 @@ body svg {
   }
 
   .titolo2 {
-    font-family: "Butler";
+    font-family: "title-bold";
     font-size: 3.5em;
     margin: auto;
     font-weight: normal;
@@ -332,7 +332,7 @@ body svg {
 
   .sottotitolo{
     padding-top: 4px;
-    font-family: "Poppins";
+    font-family: "main-regular";
     font-size: 1em;
     margin: auto;
     margin-top: 1.3em;
@@ -341,7 +341,7 @@ body svg {
   }
 
   .graphtitle {
-    font-family: "Butler";
+    font-family: "title-bold";
     font-size: 1.8em;
     letter-spacing: 0.01em;
   }
@@ -394,7 +394,7 @@ body svg {
 
   .intro {
     background: #FF4A60;
-    font-family: "Butler";
+    font-family: "title-bold";
     font-size: 20pt;
     color: white;
     line-height: 25pt;
@@ -402,7 +402,7 @@ body svg {
   }
 
   .cit {
-    font-family: "Butler", serif;
+    font-family: "title-bold", serif;
     font-size: 2.5em;
     margin: auto;
     margin-top: 1.5em;
@@ -415,7 +415,7 @@ body svg {
   }
 
   .po-title {
-    font-family: "Butler", serif;
+    font-family: "title-bold", serif;
     color: #FF4A60;
     font-size: 4em;
     text-align: center;
@@ -424,7 +424,7 @@ body svg {
   }
 
   .po-subtitle {
-    font-family: "Poppins";
+    font-family: "main-regular";
     font-size: 1em;
     margin: auto;
     letter-spacing: 0.2em;
@@ -436,7 +436,7 @@ body svg {
   }
 
   .cit2 {
-    font-family: "Butler", serif;
+    font-family: "title-bold", serif;
     font-size: 2.5em;
     color: white;
   }
@@ -457,7 +457,7 @@ body svg {
     margin-bottom: 4em;}
 
     .datasource {
-      font-family: "Poppins";
+      font-family: "main-regular";
       text-transform: uppercase;
       font-size: 0.8em;
       color: #272727;
@@ -492,14 +492,14 @@ body svg {
     }
 
     #climate-index .index {
-      font-family: "Butler", serif;
+      font-family: "title-bold", serif;
       font-size: 2.2em;
       line-height: 0.5em;
     }
 
     #climate-index .index-title {
       font-size: 0.8em;
-      font-family:"Poppins", sans-serif;
+      font-family:"main-regular", sans-serif;
       letter-spacing: 2px;
       text-transform: uppercase;
       margin-bottom: 1em;
@@ -510,7 +510,7 @@ body svg {
       margin: 10px;
       color: white;
       font-size: 1.3em;
-      font-family:"Poppins", sans-serif;
+      font-family:"main-regular", sans-serif;
       letter-spacing: 1px;
       text-transform: uppercase;
       border: 1px solid white;
@@ -568,7 +568,7 @@ body svg {
       margin-bottom: 2.5em;
       margin-left: 8%;
       margin-right: 5%;
-      font-family: 'Poppins';
+      font-family: 'main-regular';
       letter-spacing:'1px';
       font-size: 1em;
     }
@@ -659,11 +659,11 @@ body svg {
 
   #graph03 .h2{
    text-transform: none;
-   font-family: "Crimson-text";
+   font-family: "Crimson Text";
  }
 
 
- #adaptation-bar{
+ #adaptation-bar {
   cursor: pointer;
 }
 
@@ -738,7 +738,7 @@ body svg {
 }
 
 .components {
-  font-family:"Poppins", sans-serif;
+  font-family:"main-regular", sans-serif;
   font-size: 1em;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -771,7 +771,7 @@ body svg {
 }
 
 .popover-title{
-  font-family: "Poppins";
+  font-family: "main-regular";
   font-size: 1.1em;
   margin: auto;
   letter-spacing: 2px;
@@ -782,7 +782,7 @@ body svg {
 }
 
 .popover-content{
-  font-family: "Crimson text", serif;
+  font-family: "Crimson Text", serif;
   font-size: 1.1em;
   margin: auto;
   color:#272727;
@@ -867,7 +867,7 @@ body.loading .modal {
 
 /* PIECHARTS */
 #piecharts .btn {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'main-regular', sans-serif;
   text-align: center;
   text-transform: uppercase;
   font-size: 0.7em;
@@ -940,7 +940,7 @@ body.loading .modal {
 }
 
 #vuln-read .btn {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'main-regular', sans-serif;
   text-transform: uppercase;
   font-size: 0.8em;
   letter-spacing: 2px;
@@ -973,6 +973,13 @@ body.loading .modal {
 
 /* BREAKPOINTS */
 @media only screen and (min-device-width: 320px) and (max-device-width: 425px) {
+
+  footer img {
+    width: 1rem;
+    margin: 0 0 0rem 4em;
+  }
+
+  
   body {
     font-size: 1.3em;
   }
@@ -1043,7 +1050,7 @@ footer a:hover {
 }
 
 footer h2{
-  font-family: "Poppins", serif;
+  font-family: "main-regular", serif;
   text-transform: uppercase;
   font-size: 1em;
   letter-spacing: 3px;
@@ -1074,7 +1081,7 @@ footer .kiib span {
   background: #581a9b;
   padding: 0.5rem 1rem;
   border-radius: 1px;
-  font-family: "Poppins", sans-serif;
+  font-family: "main-regular", sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: white;
@@ -1083,10 +1090,8 @@ footer .kiib span {
 }
 
 footer img{
-  width: 7rem;
-  position: relative;
-  top: 10px;
-  margin: 1em;
+  width: 10rem;
+  margin: 0 0 4rem 4em;
 }
 
 
@@ -1097,9 +1102,4 @@ footer img{
   #title {
     padding-top: 25%;
   }
-  
-  footer img {
-    padding-right:1rem;
-  }
-
 }
