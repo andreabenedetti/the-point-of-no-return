@@ -23,7 +23,7 @@ var line = d3.line()
     .x(function(e) { return x(e.date); })
     .y(function(e) { return y(e.temp); });
 
-d3.tsv("../libs/data/temp2.tsv", function(e) {
+d3.tsv("//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/libs/data/temp2.tsv", function(e) {
   e.date = parseTimeT(e.date);
   e.temp = +e.temp;
   return e;

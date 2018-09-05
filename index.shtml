@@ -22,12 +22,12 @@
   <!-- ### fine custom CSS, JS ### -->
 
   <!-- ### inserire qui sotto i Custom images [css,js] ### -->
-  <link rel="icon" href="../images/favicon-01.png" type="img/png" />
+  <link rel="icon" href="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/images/favicon-01.png" type="img/png" />
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700|Poppins" rel="stylesheet">
-  <link href="../libs/css/bootstrap.css" rel="stylesheet">
-  <link rel="stylesheet" href="../font.css">
-  <link rel="stylesheet" href="../libs/css/font-awesome.min.css">
-  <link rel="stylesheet" href="../libs/css/style.css">
+  <link href="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/libs/css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/ont.css">
+  <link rel="stylesheet" href="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/libs/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/libs/css/style.css">
 
 </head>
 
@@ -39,7 +39,7 @@
   <div class="loader">
     <div class="dot"></div><div class="dot-a"></div></div>
     <section id="title" class="scuro">
-      <div id="video" data-vide-bg="mp4: ../images/video/point_little.mp4, mov: ../images/video/point_little.mov, poster: ../images/video/poster.png"></div>
+      <div id="video" data-vide-bg="mp4: //static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/images/video/point_little.mp4, mov: //static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/images/video/point_little.mov, poster: //static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/images/video/poster.png"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
@@ -864,7 +864,7 @@
     </div>
     </div>
     <div id="adaptation-timeline">
-      <img src="../images/180211_areagraph-fondi.svg" class="img-responsive">
+      <img src="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/images/180211_areagraph-fondi.svg" class="img-responsive">
     </div>
     <p class="datasource dswhite">Fonte: <a href="https://figshare.com/s/eb6132db870f68ac43c8" target="_blank">Climate Fund Update</a> | 2002-2015</p>
   </div>
@@ -1029,7 +1029,7 @@
             I programmi per l'adattamento mettono in relazione <i>i paesi che stanziano fondi e i paesi che li ricevono</i>. Questi fondi, risultato delle trattative internazionali, prima di essere effettivamente ricevuti da chi ne ha bisogno, seguono un percorso diviso in quattro fasi.<br><br> Inizialmente, ogni stato donatore <em>stabilisce</em> una quantit&#224; di denaro da <em>depositare</em> in un fondo specifico. Successivamente, il denaro &#232; <em>approvato</em> dai fondi stessi, per poi essere <em>versati</em> ai Paesi riceventi.<hr>Nella sezione successiva, verr&#224; analizzata la distribuzione dei fondi <i>depositati e approvati</i> dai programmi per l'adattamento.</span>
           </div>
           <div class="col-lg-7 col-sm-7 col-md-7 col-xs-12">
-            <img src="../images/imbuto-ita.svg" style="padding: 15px">
+            <img src="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/images/imbuto-ita.svg" style="padding: 15px">
             <p class="datasource dswhite">Fonte: <a href="https://figshare.com/s/eb6132db870f68ac43c8" target="_blank">Climate Fund Update</a></p>
           </div>
         </div>
@@ -1043,7 +1043,7 @@
             <p class="dueColonne testo">
               I fondi per l'adattamento e gli scambi tra essi coprono quasi la totalit&#224; dei Paesi del mondo, tuttavia <em>trenta soli Paesi contribuiscono con l'86%</em> del totale.<br>
               Il denaro, una volta depositato, rimane in attesa di essere approvato. Solo ora, una volta approvato, <em>verr&#224; redistribuito</em> tra i venti Paesi che ricevono pi&#249; denaro.</p>
-              <img src="../images/legenda-flussi-ita.svg" width="100%" alt="legenda flussi" style="margin-bottom: 2em">
+              <img src="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/images/legenda-flussi-ita.svg" width="100%" alt="legenda flussi" style="margin-bottom: 2em">
               <?xml version="1.0" encoding="utf-8"?>
               <!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
               <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="958px"
@@ -1582,7 +1582,7 @@
           <p class="dueColonne testo">
             Il denaro ricevuto da ogni Paese va ad agire su cinque diverse aree di azione per l'adattamento al cambiamento climatico. I fondi per l'adattamento agiscono tramite diversi programmi settoriali che vengono decisi da accordi internazionali.<br> I <i data-container="body" data-toggle="popover" data-placement="top" data-content="A volte, la soluzione pi&#249; adatta &#232; quella di coprire pi&#249; settori contemporaneamente. L'obiettivo dei programmi multisettoriali &#232; quello di trovare programmi sinergici che vanno a colpire vulnerabilit&#224; che trascendono i tradizionali confini definiti dagli altri programmi.">programmi multisettoriali</i> agiscono su diverse aree simultaneamente in quei paesi la cui situazione pu&#242; essere migliorata su diversi fronti.</p>
             <div id="legenda-tortine">
-              <img src="../images/tortine-legenda-ita.svg">
+              <img src="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/images/tortine-legenda-ita.svg">
             </div>
             <div id="piecharts">
               <div class="bottoni"><div id="b-all-sector" class="btn">Tutti</div><div id="b-agricolture" class="btn">Agricoltura</div><div id="b-civil" class="btn">Societ&#224; civile</div><div id="b-water" class="btn">Acqua</div><div id="b-multisector" class="btn">Multisettore</div><div id="b-human" class="btn">Aiuti umanitari</div></div>
@@ -17960,7 +17960,7 @@
     <p class="dueColonne testo">
       Sulla base della matrice di vulnerabilit&#224; e preparazione sono emersi i paesi in una situazione pi&#249; critica. Qui sono sovrapposti questo indicatore e <em>l’effettiva quantit&#224; di denaro</em> ricevuto dai fondi internazionali per l’adattamento.
       Sono stati messi in evidenza <em>i 20 paesi che ricevono di pi&#249;</em> dai fondi e <em>i 20 paesi pi&#249; vulnerabili.</em></p>
-      <img src="../images/legenda-rombi.svg" width="50%" style="margin-left: -2.5em">
+      <img src="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/images/legenda-rombi.svg" width="50%" style="margin-left: -2.5em">
     </div>
     <div id="heatmap" class="container-fluid">
       <div class="heatmap-bottoni"><div id="all" class="btn btn-left">Tutti</div><div id="most-vuln" class="btn btn-right">Pi&#249; vulnerabili</div><div id="20-rec" class="btn btn-right">Primi riceventi</div></div>
@@ -18243,25 +18243,25 @@
      <h2>Faculty e Assistenti</h2><p>Paolo Ciuccarelli, Marco Fattore, Stefano Mandato, Michele Mauri, Salvatore Zingale, Angeles Briones, Azzurra Pini, Tommaso Elli, Michele Invernizzi</p>
    </div>
    <div class="col-xs-4 logo hidden-xs">
-     <a href="http://www.densitydesign.org/" target="_blank"><img src="../images/logo_density_white.png"></a><br>
-     <a href="http://www.polimi.it/" target="_blank"><img src="../images/logo-poli.png"></a>
+     <a href="http://www.densitydesign.org/" target="_blank"><img src="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/images/logo_density_white.png"></a><br>
+     <a href="http://www.polimi.it/" target="_blank"><img src="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/images/logo-poli.png"></a>
    </div>
  </div>
 </footer>
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script src="../libs/js/bootstrap.min.js"></script>
-<script src="../libs/js/index.js"></script>
-<script src="../libs/js/viz.js" defer></script>
-<script src="../libs/js/timeline-static.js" defer></script>
-<script src='../libs/js/jquery.vide.js'></script>
+<script src="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/libs/js/bootstrap.min.js"></script>
+<script src="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/libs/js/index.js"></script>
+<script src="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/libs/js/viz.js" defer></script>
+<script src="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/libs/js/timeline-static.js" defer></script>
+<script src='//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/libs/js/jquery.vide.js'></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-<script src="../libs/js/jquery.counterup.min.js"></script>
-<script src="../libs/js/co2d3.js"></script>
-<script src="../libs/js/tempd3.js"></script>
-<script src="../libs/js/icecompd3.js"></script>
-<script src="../libs/js/sead3.js"></script>
+<script src="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/libs/js/jquery.counterup.min.js"></script>
+<script src="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/libs/js/co2d3.js"></script>
+<script src="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/libs/js/tempd3.js"></script>
+<script src="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/libs/js/icecompd3.js"></script>
+<script src="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/libs/js/sead3.js"></script>
 <script>
   jQuery(document).ready(function($) {
     $('.ind').counterUp({

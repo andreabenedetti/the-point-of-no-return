@@ -29,7 +29,7 @@ var f = d3.select("#temp-graph")
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
 
-d3.tsv("../libs/data/temp2.tsv", function(e) {
+d3.tsv("//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/libs/data/temp2.tsv", function(e) {
   e.date = parseTime2(e.date);
   e.close = +e.close;
   return e;

@@ -43,7 +43,7 @@ var ice = d3.select("#ice-graph")
           "translate(" + margin.left + "," + margin.top + ")");
 
 // Get the data
-d3.tsv("../libs/data/ant-green-ice.tsv", function(error, data) {
+d3.tsv("//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/libs/data/ant-green-ice.tsv", function(error, data) {
   if (error) throw error;
 
   console.log(margin.right);

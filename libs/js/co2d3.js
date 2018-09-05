@@ -29,7 +29,7 @@ var g = d3.select("#co2-graph")
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
 
-d3.tsv("../libs/data/co2.tsv", function(d) {
+d3.tsv("//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/libs/data/co2.tsv", function(d) {
   d.cdate = parseTime(d.cdate);
   d.value = +d.value;
   return d;

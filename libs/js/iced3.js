@@ -28,7 +28,7 @@ var line4 = d3.line()
 .x(function(c) { return x2(c.date); })
 .y(function(c) { return y2(c.close); });
 
-d3.tsv("../libs/data/green-ice.tsv", function(e) {
+d3.tsv("//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/libs/data/green-ice.tsv", function(e) {
   e.date = parseTime3(e.date);
   e.close = +e.close;
   return e;

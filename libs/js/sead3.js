@@ -29,7 +29,7 @@ var i = d3.select("#sea-graph")
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
 
-d3.tsv("../libs/data/sea-level.tsv", function(e) {
+d3.tsv("//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/the-point-of-no-return/libs/data/sea-level.tsv", function(e) {
   e.date = parseTime(e.date);
   e.close = +e.close;
   return e;
